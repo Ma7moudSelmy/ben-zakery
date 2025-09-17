@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coming Soon</title>
+  <!-- مكتبة Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: url("assets/images/الخلفيه.jpg") no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+
+    .logo {
+      max-width: 400px; /* حجم اللوجو الكبير */
+      width: 100%;
+      margin-bottom: 15px; /* قللنا المسافة */
+    }
+
+    .text {
+      font-size: 20px; /* صغرنا الخط */
+      color: white;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+      margin-bottom: 15px; /* قللنا المسافة */
+    }
+
+    .icons {
+      display: flex;
+      gap: 18px; /* المسافة بين الأيقونات */
+    }
+
+    .icons a {
+      color: white;
+      font-size: 20px; /* صغرنا الأيقونات */
+      transition: 0.3s;
+    }
+
+    .icons a:hover {
+      color: #00aced; /* لون عند المرور */
+    }
+  </style>
+</head>
+<body>
+  <img src="assets/images/Logo.png" alt="Logo" class="logo">
+  <div class="text">COMING SOON</div>
+
+  <div class="icons">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-snapchat"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+  </div>
+</body>
+</html>
